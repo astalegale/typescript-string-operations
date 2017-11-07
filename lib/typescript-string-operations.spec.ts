@@ -1,6 +1,20 @@
-import { String } from '../source/source';
+import { TestBed, inject } from '@angular/core/testing';
 import { expect } from 'chai';
-import 'mocha';
+import { String } from './typescript-string-operations';
+
+
+describe('JwtHelperService', () => {
+    beforeEach(() => {
+        TestBed.configureTestingModule({
+            providers: [JwtHelperService]
+        });
+    });
+
+    it('should be created', inject([JwtHelperService], (service: JwtHelperService) => {
+        expect(service).toBeTruthy();
+    }));
+});
+
 
 describe('String.IsNullOrWhitespace', () => {
 

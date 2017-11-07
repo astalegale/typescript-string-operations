@@ -40,7 +40,6 @@ export class String {
             let firstArg = args[0];
             if (Array.isArray(firstArg) || firstArg instanceof Array) {
                 let tempString = String.Empty;
-                let count = 0;
 
                 for (let i = 0; i < firstArg.length; i++) {
                     let current = firstArg[i];
@@ -117,25 +116,25 @@ export class String {
                 }
                 break;
             case 'n': //Tausender Trennzeichen
-                let replacedString = arg.replace(/,/g,'.');
+                let replacedString = arg.replace(/,/g, '.');
                 if (isNaN(parseFloat(replacedString)) || replacedString.length <= 3)
                     break;
 
-                let numberparts = replacedString.split(/[^0-9]+/g);
+                const numberparts = replacedString.split(/[^0-9]+/g);
                 let parts = numberparts;
 
-                if(numberparts.length > 1){
-                    parts = [String.join('',...(numberparts.splice(0, numberparts.length -1 ))), numberparts[numberparts.length-1]];
+                if (numberparts.length > 1) {
+                    parts = [String.join('', ...(numberparts.splice(0, numberparts.length - 1))), numberparts[numberparts.length - 1]];
                 }
 
-                let integer = parts[0];
+                const integer = parts[0];
 
-                var mod = integer.length % 3;
-                var output = (mod > 0 ? (integer.substring(0, mod)) : String.Empty);
-                var firstGroup = output;
-                var remainingGroups = integer.substring(mod).match(/.{3}/g);
-                output =  output + '.' + String.Join('.',remainingGroups);
-                arg = output + (parts.length > 1 ? ','+ parts[1] : '');
+                const mod = integer.length % 3;
+                let output = (mod > 0 ? (integer.substring(0, mod)) : String.Empty);
+
+                const remainingGroups = integer.substring(mod).match(/.{3}/g);
+                output = output + '.' + String.Join('.', remainingGroups);
+                arg = output + (parts.length > 1 ? ',' + parts[1] : '');
                 return arg;
             default:
                 break;

@@ -1,6 +1,6 @@
-[![NPM](https://nodei.co/npm/typescript-string-operations.png?mini=true)](https://www.npmjs.com/package/typescript-string-operations)
-# Simple lightweight string operation library for Typescript.
-#### jQuery required. Unit tested.
+# This is a porting of "typescript-string-operations" (https://github.com/sevensc/typescript-string-operations) adapted to work correctly with angular 4 and above
+#
+#### jQuery required. Unit tested (work in progress).
 #### USAGE:
 
 ### String.Empty

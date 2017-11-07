@@ -1,10 +1,21 @@
 {
-    "files": [
-        "source/source.ts"
-    ],
+    "compileOnSave": false,
     "compilerOptions": {
-        "noImplicitAny": true,
-        "removeComments": true,
-        "target": "es5"
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noUnusedParameters": false,
+        "noUnusedLocals": true,
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2017",
+            "dom"
+        ]
     }
 }

@@ -1,39 +1,34 @@
 {
-  "name": "typescript-string-operations",
-  "version": "1.1.0",
-  "description": "Simple lightweight string operation library for Typescript",
-  "main": "source.ts",
-  "scripts": {
-    "test": "mocha -r ts-node/register tests/**/tests.ts",
-    "build": "gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sevensc/typescript-string-operations.git"
-  },
-  "keywords": [
-    "typescript",
-    "string format"
-  ],
-  "author": "Sven Ulrich <sven_ulrich@gmx.net> (holdmybeer.de)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sevensc/typescript-string-operations/issues"
-  },
-  "homepage": "https://github.com/sevensc/typescript-string-operations#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@types/chai": "^4.0.1",
-    "@types/mocha": "^2.2.41",
-    "chai": "^4.0.2",
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^3.2.0",
-    "mocha": "^3.4.2",
-    "qunitjs": "^2.1.1",
-    "ts-node": "^3.2.0",
-    "typescript": "^2.4.1"
-  },
-  "directories": {
-    "test": "tests"
-  }
+    "name": "typescript-string-operations-ng4",
+    "version": "0.1.0",
+    "description": "Simple lightweight string operation library for Typescript for ng4 and above",
+    "main": "source.ts",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/astalegale/typescript-string-operations-ng4"
+    },
+    "keywords": [
+        "typescript",
+        "string format"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/astalegale/typescript-string-operations-ng4/issues"
+    },
+    "homepage": "https://github.com/astalegale/typescript-string-operations-ng4#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/chai": "^4.0.1",
+        "@types/mocha": "^2.2.41",
+        "chai": "^4.0.2",
+        "mocha": "^3.4.2",
+        "qunitjs": "^2.1.1",
+        "ts-node": "^3.2.0",
+        "typescript": "^2.4.1"
+    },
+    "directories": {
+        "test": "tests"
+    }
 }
