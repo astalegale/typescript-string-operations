@@ -1,21 +1,60 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {
-        "outDir": "./dist/out-tsc",
-        "sourceMap": true,
-        "declaration": false,
-        "moduleResolution": "node",
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "noUnusedParameters": false,
-        "noUnusedLocals": true,
-        "target": "es5",
-        "typeRoots": [
-            "node_modules/@types"
-        ],
-        "lib": [
-            "es2017",
-            "dom"
-        ]
-    }
+    "_from": "typescript-string-operations-ng4@^0.1.0",
+    "_id": "typescript-string-operations-ng4@0.1.0",
+    "_inBundle": false,
+    "_integrity": "sha512-f48RzFuT8UA7iwRssHdN9LEtv7SF9P4Kcs26sIJpdMY4cchAwiyed/Lvva3IssjPZOBn9FJCWAFWWj+kvOqHPA==",
+    "_location": "/typescript-string-operations-ng4",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "range",
+        "registry": true,
+        "raw": "typescript-string-operations-ng4@^0.1.0",
+        "name": "typescript-string-operations-ng4",
+        "escapedName": "typescript-string-operations-ng4",
+        "rawSpec": "^0.1.0",
+        "saveSpec": null,
+        "fetchSpec": "^0.1.0"
+    },
+    "_requiredBy": [
+        "/"
+    ],
+    "_resolved": "http://10.3.3.9:4873/typescript-string-operations-ng4/-/typescript-string-operations-ng4-0.1.0.tgz",
+    "_shasum": "c2cade42e7335991c761b8ea80d8c7bd61e8f5f9",
+    "_spec": "typescript-string-operations-ng4@^0.1.0",
+    "_where": "D:\\root_code\\SpazioAste.Vendite\\Frontend\\migate",
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/astalegale/typescript-string-operations-ng4/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {},
+    "deprecated": false,
+    "devDependencies": {
+        "@types/chai": "^4.0.1",
+        "@types/mocha": "^2.2.41",
+        "chai": "^4.0.2",
+        "mocha": "^3.4.2",
+        "qunitjs": "^2.1.1",
+        "ts-node": "^3.2.0",
+        "typescript": "^2.4.1"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "homepage": "https://github.com/astalegale/typescript-string-operations-ng4#readme",
+    "keywords": [
+        "typescript",
+        "string format"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/astalegale/typescript-string-operations-ng4.git"
+    },
+    "scripts": {},
+    "name": "typescript-string-operations-ng4",
+    "version": "0.1.0",
+    "description": "Simple lightweight string operation library for Typescript for ng4 and above",
+    "main": "dist/index.js",
+    "types": "index.d.ts"
 }
