@@ -1,6 +1,6 @@
 {
-    "_from": "typescript-string-operations-ng4@^0.1.0",
-    "_id": "typescript-string-operations-ng4@0.1.0",
+    "_from": "typescript-string-operations-ng4@^0.1.1",
+    "_id": "typescript-string-operations-ng4@0.1.1",
     "_inBundle": false,
     "_integrity": "sha512-f48RzFuT8UA7iwRssHdN9LEtv7SF9P4Kcs26sIJpdMY4cchAwiyed/Lvva3IssjPZOBn9FJCWAFWWj+kvOqHPA==",
     "_location": "/typescript-string-operations-ng4",
@@ -8,19 +8,19 @@
     "_requested": {
         "type": "range",
         "registry": true,
-        "raw": "typescript-string-operations-ng4@^0.1.0",
+        "raw": "typescript-string-operations-ng4@^0.1.1",
         "name": "typescript-string-operations-ng4",
         "escapedName": "typescript-string-operations-ng4",
-        "rawSpec": "^0.1.0",
+        "rawSpec": "^0.1.1",
         "saveSpec": null,
-        "fetchSpec": "^0.1.0"
+        "fetchSpec": "^0.1.1"
     },
     "_requiredBy": [
         "/"
     ],
-    "_resolved": "http://10.3.3.9:4873/typescript-string-operations-ng4/-/typescript-string-operations-ng4-0.1.0.tgz",
+    "_resolved": "http://10.3.3.9:4873/typescript-string-operations-ng4/-/typescript-string-operations-ng4-0.1.1.tgz",
     "_shasum": "c2cade42e7335991c761b8ea80d8c7bd61e8f5f9",
-    "_spec": "typescript-string-operations-ng4@^0.1.0",
+    "_spec": "typescript-string-operations-ng4@^0.1.1",
     "_where": "D:\\root_code\\SpazioAste.Vendite\\Frontend\\migate",
     "author": "",
     "bugs": {
