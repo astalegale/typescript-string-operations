@@ -1,60 +1,68 @@
 {
-    "_from": "typescript-string-operations-ng4@^0.1.1",
-    "_id": "typescript-string-operations-ng4@0.1.1",
-    "_inBundle": false,
-    "_integrity": "sha512-f48RzFuT8UA7iwRssHdN9LEtv7SF9P4Kcs26sIJpdMY4cchAwiyed/Lvva3IssjPZOBn9FJCWAFWWj+kvOqHPA==",
-    "_location": "/typescript-string-operations-ng4",
-    "_phantomChildren": {},
-    "_requested": {
-        "type": "range",
-        "registry": true,
-        "raw": "typescript-string-operations-ng4@^0.1.1",
-        "name": "typescript-string-operations-ng4",
-        "escapedName": "typescript-string-operations-ng4",
-        "rawSpec": "^0.1.1",
-        "saveSpec": null,
-        "fetchSpec": "^0.1.1"
+  "name": "typescript-string-operations-ng4",
+  "version": "0.1.3",
+  "description": "Simple lightweight string operation library for Typescript for ng4 and above",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "jam": {
+    "main": "./dist/index.browser.js"
+  },
+  "browser": {
+    "dist/index.js": "./dist/index.browser.js"
+  },
+  "scripts": {
+    "build": "webpack || echo not ok",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "coverage": "npm test -- --coverage --no-cache",
+    "coverage:watch": "npm run coverage -- --watch",
+    "prepare": "npm run build && npm test",
+    "release": "standard-version && npm pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astalegale/typescript-string-operations-ng4.git"
+  },
+  "homepage": "https://github.com/astalegale/typescript-string-operations-ng4#readme",
+  "keywords": [
+    "typescript",
+    "string format"
+  ],
+  "devDependencies": {
+    "@types/jest": "^20.0.7",
+    "@types/node": "^8.0.24",
+    "browserify": "^14.4.0",
+    "delete-empty": "^1.0.1",
+    "dts-bundle": "^0.7.3",
+    "jest": "^20.0.4",
+    "standard-version": "^4.2.0",
+    "ts-jest": "^20.0.10",
+    "ts-loader": "^2.3.3",
+    "tslint": "^5.6.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "2.4.2",
+    "webpack": "3.5.5",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {},
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "_requiredBy": [
-        "/"
+    "mapCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.ts"
     ],
-    "_resolved": "http://10.3.3.9:4873/typescript-string-operations-ng4/-/typescript-string-operations-ng4-0.1.1.tgz",
-    "_shasum": "c2cade42e7335991c761b8ea80d8c7bd61e8f5f9",
-    "_spec": "typescript-string-operations-ng4@^0.1.1",
-    "_where": "D:\\root_code\\SpazioAste.Vendite\\Frontend\\migate",
-    "author": "",
-    "bugs": {
-        "url": "https://github.com/astalegale/typescript-string-operations-ng4/issues"
-    },
-    "bundleDependencies": false,
-    "dependencies": {},
-    "deprecated": false,
-    "devDependencies": {
-        "@types/chai": "^4.0.1",
-        "@types/mocha": "^2.2.41",
-        "chai": "^4.0.2",
-        "mocha": "^3.4.2",
-        "qunitjs": "^2.1.1",
-        "ts-node": "^3.2.0",
-        "typescript": "^2.4.1"
-    },
-    "directories": {
-        "test": "tests"
-    },
-    "homepage": "https://github.com/astalegale/typescript-string-operations-ng4#readme",
-    "keywords": [
-        "typescript",
-        "string format"
+    "coveragePathIgnorePatterns": [
+      "/__tests__/",
+      "/node_modules/"
     ],
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/astalegale/typescript-string-operations-ng4.git"
-    },
-    "scripts": {},
-    "name": "typescript-string-operations-ng4",
-    "version": "0.1.1",
-    "description": "Simple lightweight string operation library for Typescript for ng4 and above",
-    "main": "dist/index.js",
-    "types": "index.d.ts"
+    "testEnvironment": "node",
+    "testRegex": "__tests__/.*\\.spec\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json"
+    ]
+  }
 }
