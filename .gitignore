@@ -1,43 +1,13 @@
-node_modules/*
-<<<<<<< HEAD
-.vscode/*
-=======
->>>>>>> 7419cc9177542febefcb10fc54340266a6acad9b
-
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+*
+!yarn.lock
+!src/
+!src/**/*
+!*.js
+!*.json
+!*.md
+!.gitignore
+!.travis.yml
+!LICENSE
+!.npmignore
+!__tests__/
+!__tests__/**/*
