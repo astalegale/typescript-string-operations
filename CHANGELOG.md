@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 
+<a name="0.1.3"></a>
+## [0.1.3](https://github.com/astalegale/typescript-string-operations-ng4/compare/v0.1.1...v0.1.3) (2017-11-09)
+
+
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/DxCx/ts-library-starter/compare/v0.0.6...v0.1.0) (2016-09-19)
 
